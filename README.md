@@ -2,79 +2,70 @@
 
 # Navneet Nanda
 
-<a href="https://github.com/navneetxdd">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1000&color=00FFCC&center=true&vCenter=true&width=500&lines=B.Tech+CSE+(Cybersecurity)+Student;Cybersecurity+%E2%80%A2+Systems+%26+Networks;Building+Pramaan+%26+Fuseline" alt="Typing SVG" />
-</a>
+**timelines · packets · systems that fail honestly**
 
-</div>
-
-<pre>
-                  *            .       .         *
-         .               .                  .             .
-                 .                 *             .
-           *            .---.         .               *
-                       /     \               .
-                      |   ( ) |   *             .
-         .             \     /           *
-                 *      '---'                       *
-           .                       .
-                       /\            *          .
-          *           /  \
-                     /    \         /\               *
-                    /      \       /  \    .
-                   /   /\   \     /    \
-                  /   /  \   \   /      \        .
-    _____________/___/____\___\_/________\__________________
-    ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
-</pre>
-
-<br/>
-
-### 🚀 Projects
-
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| 🔍 **[`Pramaan`](https://github.com/navneetxdd/Pramaan)** | Multi-vendor DVR/NVR surveillance video acquisition and extraction | `Python` `OpenCV` |
-| ⚡ **[`fuseline`](https://github.com/navneetxdd/fuseline)** | Mobile timeline builder — correlates GPS, browsing, and app events | `Python` `SQLite` |
-| 🛡️ **[`Sentinel-DDoS`](https://github.com/navneetxdd/Sentinel-DDoS-Mitigation-System)** | Network traffic monitoring and automated DDoS mitigation | `Python` `Networking` |
-
-<br/>
-
-### 🛠️ Languages & Tools
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,c,cpp,bash,linux,kali,arch,docker,git,sqlite,powershell,github" />
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-
-[![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white&labelColor=0d1117)](#)
-[![Ghidra](https://img.shields.io/badge/Ghidra-EF2D5E?style=flat-square&logo=dragon&logoColor=white&labelColor=0d1117)](#)
-[![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=securityscorecard&logoColor=white&labelColor=0d1117)](#)
-[![Nmap](https://img.shields.io/badge/Nmap-2A3F8F?style=flat-square&logo=nmap&logoColor=white&labelColor=0d1117)](#)
+`B.Tech CSE (Cybersecurity)` · builds forensic tools, breaks assumptions
 
 </div>
 
 <br/>
 
-### 📈 Streak
+<table>
+  <tr>
+    <td width="42%" valign="top">
+      <img src="./case-board.svg" width="100%" alt="Case board — timeline radar"/>
+    </td>
+    <td width="58%" valign="top">
+      <img src="./dossier.svg" width="100%" alt="Lab dossier terminal card"/>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="./signal-map.svg" alt="Contribution signal map"/>
+</p>
+
+<p align="center"><sub>Signal map refreshes daily via Actions — public scrape, no token, amber not green.</sub></p>
+
+---
+
+## On the bench
+
+| Project | What it actually does |
+| :--- | :--- |
+| **[fuseline](https://github.com/navneetxdd/fuseline)** | Mobile forensic timeline — correlate GPS, browsing, and app usage into one clock |
+| **[Sentinel-DDoS-Mitigation-System](https://github.com/navneetxdd/Sentinel-DDoS-Mitigation-System)** | Traffic watch + automated mitigation experiments |
+| **[c0mr4d35](https://github.com/navneetxdd/c0mr4d35)** | System Siege (GFG hackathon) — TypeScript under a clock |
+| **[CyberShield](https://github.com/navneetxdd/CyberShield)** | Defensive tooling experiments |
+| **[Florence](https://github.com/navneetxdd/Florence)** | TypeScript lab project |
+
+---
+
+## Stack I actually reach for
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,ts,react,fastapi,sqlite,linux,docker,git,bash,powershell,aws" alt="Skill icons"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="Burp"/>
+  <img src="https://img.shields.io/badge/Ghidra-black?style=for-the-badge&logo=c&logoColor=EF2D5E" alt="Ghidra"/>
+  <img src="https://img.shields.io/badge/Nmap-2A3F8F?style=for-the-badge&logo=nmap&logoColor=white" alt="Nmap"/>
+  <img src="https://img.shields.io/badge/Plaso-0c0a09?style=for-the-badge&logo=python&logoColor=f59e0b" alt="Plaso"/>
+</p>
+
+---
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=navneetxdd&theme=radical&hide_border=true&background=0d1117&ring=00ffcc&fire=ff0055&currStreakLabel=00ffcc&stroke=00ffcc" alt="Streak Stats" />
-</div>
+
+### how I work
+
+`reproduce → instrument → prove → ship`  
+no vibes-only security · no co-author spam in git history · evidence over aesthetics
 
 <br/>
 
-### 🐍 Contributions
+<sub>profile art is custom — inspired by the idea of live terminal cards, not a fork of anyone else's face SVG.</sub>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/navneetxdd/navneetxdd/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/navneetxdd/navneetxdd/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/navneetxdd/navneetxdd/output/github-contribution-grid-snake-dark.svg">
-  </picture>
 </div>
