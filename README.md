@@ -3,12 +3,12 @@
 # Navneet Nanda
 
 <a href="https://github.com/navneetxdd">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1000&color=00FFCC&center=true&vCenter=true&width=500&lines=B.Tech+CSE+(Cybersecurity)+Student;Cybersecurity+%E2%80%A2+Systems+Development;Building+cool+projects" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1000&color=00FFCC&center=true&vCenter=true&width=500&lines=B.Tech+CSE+(Cybersecurity)+Student;Cybersecurity+%E2%80%A2+Systems+%26+Networks;Building+Pramaan+%26+Fuseline" alt="Typing SVG" />
 </a>
 
 </div>
 
-```text
+<pre>
                   *            .       .         *
          .               .                  .             .
                  .                 *             .
@@ -19,24 +19,24 @@
                  *      '---'                       *
            .                       .
                        /\            *          .
-          *           /  \                      
+          *           /  \
                      /    \         /\               *
                     /      \       /  \    .
                    /   /\   \     /    \
                   /   /  \   \   /      \        .
     _____________/___/____\___\_/________\__________________
-    - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-```
+    ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+</pre>
 
 <br/>
 
 ### 🚀 Projects
 
-| Project | Description | Tech Stack |
+| Project | Description | Stack |
 | :--- | :--- | :--- |
-| 🔍 **[`Pramaan`](https://github.com/navneetxdd/Pramaan)** | Multi-vendor DVR/NVR surveillance analysis and video extraction tool | `Python` `OpenCV` `Surveillance` |
-| ⚡ **[`fuseline`](https://github.com/navneetxdd/fuseline)** | Activity Timeline Builder — correlates GPS, browsing, and app events | `Python` `SQLite` `Data Analysis` |
-| 🛡️ **[`Sentinel-DDoS`](https://github.com/navneetxdd/Sentinel-DDoS-Mitigation-System)** | Dynamic network traffic monitoring and automated DDoS mitigation system | `Networking` `Python` `Security` |
+| 🔍 **[`Pramaan`](https://github.com/navneetxdd/Pramaan)** | Multi-vendor DVR/NVR surveillance video acquisition and extraction | `Python` `OpenCV` |
+| ⚡ **[`fuseline`](https://github.com/navneetxdd/fuseline)** | Mobile timeline builder — correlates GPS, browsing, and app events | `Python` `SQLite` |
+| 🛡️ **[`Sentinel-DDoS`](https://github.com/navneetxdd/Sentinel-DDoS-Mitigation-System)** | Network traffic monitoring and automated DDoS mitigation | `Python` `Networking` |
 
 <br/>
 
@@ -61,7 +61,7 @@
 
 <br/>
 
-### 📈 Activity & Streak
+### 📈 Streak
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=navneetxdd&theme=radical&hide_border=true&background=0d1117&ring=00ffcc&fire=ff0055&currStreakLabel=00ffcc&stroke=00ffcc" alt="Streak Stats" />
@@ -69,7 +69,7 @@
 
 <br/>
 
-### 🐍 Contribution Activity
+### 🐍 Contributions
 
 <div align="center">
   <picture>
