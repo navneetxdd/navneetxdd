@@ -3,49 +3,32 @@
 # Navneet Nanda
 
 <a href="https://github.com/navneetxdd">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1000&color=00FFCC&center=true&vCenter=true&width=550&lines=B.Tech+CSE+(Cybersecurity)+Student;Digital+Forensics+%E2%80%A2+Reverse+Engineering;Building+Pramaan+%26+Fuseline" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=1000&color=00FFCC&center=true&vCenter=true&width=500&lines=B.Tech+CSE+(Cybersecurity)+Student;Digital+Forensics+%E2%80%A2+Low-Level+Development;Building+Pramaan+%26+Fuseline" alt="Typing SVG" />
 </a>
-
-</div>
 
 <br/>
 
-<!-- TERMINAL / ASCII ART -->
 ```text
-╭──────────────────────────────────────────────────────────────────────────╮
-│ [●] [●] [●]  TERMINAL                                                    │
-├──────────────────────────────────────────────────────────────────────────┤
-│                                                                          │
-│                         .edd$*#$$be.                                     │
-│                      .d$$$$$$$$$$$$$$b.                                  │
-│                    .d$$$$$$$$$$$$$$$$$$b.                                │
-│                   d$$$$$$$$$$$$$$$$$$$$$$b                               │
-│                  d$$$$$$$$$$$$$$$$$$$$$$$$b                              │
-│                 d$$$$$""   ""$$$""   ""$$$$b                             │
-│                 $$$$"       d$b       "$$$$                              │
-│                 $$$b        d$b        d$$$                              │
-│                 $$$b       d$$$b       d$$$                              │
-│                  "$$$bd$$$$$   $$$$$bd$$$"                               │
-│                   "$$$$$$$"     "$$$$$$$"                                │
-│                     "$$$$$u     u$$$$$"                                  │
-│                      "$$$$$$$$$$$$$$$"                                   │
-│                        "$$$$$$$$$$$"                                     │
-│                 ...      "$$$$$$$"      ...                              │
-│               .d$$$$       "$$$"       $$$$b.                            │
-│             .d$$$$$$$b.     """     .d$$$$$$$b.                          │
-│            d$$$$$$$$$$$b.         .d$$$$$$$$$$$b                         │
-│            "$$$$$$$$$$$$$b.     .d$$$$$$$$$$$$$"                         │
-│              "$$$$$$$$$$$$$b. .d$$$$$$$$$$$$$"                           │
-│                "$$$$$$$$$$$$$$$$$$$$$$$$$$$"                             │
-│                   "$$$$$$$$$$$$$$$$$$$$$"                                │
-│                       """""""""'""""""                                   │
-│                                                                          │
-│  • Name      : Navneet Nanda                                             │
-│  • Role      : B.Tech CSE (Cybersecurity) Student                        │
-│  • Focus     : Digital Forensics & Reverse Engineering                   │
-│  • Projects  : Pramaan (DVR/NVR Forensics) & Fuseline (Mobile Timeline)  │
-╰──────────────────────────────────────────────────────────────────────────╯
+                  *            .       .         *
+         .               .                  .             .
+                 .                 *             .
+           *            .---.         .               *
+                       /     \               .
+                      |   ( ) |   *             .
+         .             \     /           *
+                 *      '---'                       *
+           .                       .
+                       /\            *          .
+          *           /  \                      
+                     /    \         /\               *
+                    /      \       /  \    .
+                   /   /\   \     /    \
+                  /   /  \   \   /      \        .
+    _____________/___/____\___\_/________\__________________
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
+
+</div>
 
 <br/>
 
@@ -55,15 +38,12 @@
 | :--- | :--- | :--- |
 | 🔍 **[`Pramaan`](https://github.com/navneetxdd/Pramaan)** | Multi-vendor DVR/NVR surveillance forensic analysis tool for standardized acquisition, recovery, and analysis of video evidence | `Python` `Forensics` `Surveillance` |
 | ⚡ **[`fuseline`](https://github.com/navneetxdd/fuseline)** | Mobile App Usage Timeline Builder — correlates GPS, browsing, and app usage into a unified forensic timeline | `Python` `Plaso` `SQLite` `DFIR` |
-| 🛡️ **[`Sentinel-DDoS-Mitigation`](https://github.com/navneetxdd/Sentinel-DDoS-Mitigation-System)** | Dynamic network traffic monitoring and automated DDoS mitigation system | `Networking` `Python` `Security` |
-| ⚔️ **[`c0mr4d35`](https://github.com/navneetxdd/c0mr4d35)** | System Siege Hackathon security tooling & challenges | `System Security` `Python` |
-| 🧬 **[`CyberShield`](https://github.com/navneetxdd/CyberShield)** | Threat detection & proactive endpoint security framework | `Python` `Security` |
+| 🛡️ **[`Sentinel-DDoS`](https://github.com/navneetxdd/Sentinel-DDoS-Mitigation-System)** | Dynamic network traffic monitoring and automated DDoS mitigation system | `Networking` `Python` `Security` |
 
 <br/>
 
 ### 🛠️ Languages & Tools
 
-#### Languages & Systems
 <div align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=py,c,cpp,bash,linux,kali,arch,docker,git,sqlite,powershell,github" />
@@ -72,7 +52,6 @@
 
 <br/>
 
-#### Digital Forensics & Security Tools
 <div align="center">
 
 [![Plaso](https://img.shields.io/badge/Plaso-00FFCC?style=flat-square&logo=logstash&logoColor=black&labelColor=0d1117)](#)
