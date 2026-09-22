@@ -1,11 +1,9 @@
 <div align="center">
 
-<!-- HEADER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d13,50:002b36,100:090d13&height=180&section=header&text=NAVNEET%20NANDA&fontSize=42&fontColor=00ffcc&fontAlignY=38&desc=B.Tech%20CSE%20(Cybersecurity)%20Student%20%E2%80%A2%20Digital%20Forensics%20%26%20Low-Level%20Dev&descAlignY=62&descAlign=50&descSize=15&descColor=70a5a3" width="100%"/>
+# Navneet Nanda
 
-<!-- TYPING ANIMATION -->
 <a href="https://github.com/navneetxdd">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1000&color=00FFCC&center=true&vCenter=true&width=680&lines=Navneet+Nanda;B.Tech+CSE+(Cybersecurity)+Student;Digital+Forensics+%E2%80%A2+Reverse+Engineering;Building+Pramaan+%26+Fuseline" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=1000&color=00FFCC&center=true&vCenter=true&width=550&lines=B.Tech+CSE+(Cybersecurity)+Student;Digital+Forensics+%E2%80%A2+Reverse+Engineering;Building+Pramaan+%26+Fuseline" alt="Typing SVG" />
 </a>
 
 </div>
