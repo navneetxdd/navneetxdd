@@ -1,39 +1,48 @@
 #!/usr/bin/env python3
-"""Full-width profile header. Name, not a slogan."""
+"""Wave header and footer. Same structure as the capsule-render profiles."""
 from __future__ import annotations
 
 import os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(HERE, "..", "banner.svg")
+ROOT = os.path.join(HERE, "..")
 
-W, H = 1200, 280
+
+def header() -> str:
+    w, h = 1200, 300
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1038"/>
+      <stop offset="0.55" stop-color="#3b1d63"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+  <rect width="{w}" height="{h}" fill="url(#sky)"/>
+  <circle cx="180" cy="70" r="90" fill="#f59e0b" fill-opacity="0.12"/>
+  <circle cx="980" cy="40" r="140" fill="#60a5fa" fill-opacity="0.10"/>
+  <path d="M0 210 C 180 160, 320 250, 520 210 C 740 164, 900 250, 1200 190 L 1200 300 L 0 300 Z" fill="#0b0b10"/>
+  <path d="M0 236 C 220 190, 400 270, 640 228 C 860 190, 1000 250, 1200 214 L 1200 300 L 0 300 Z" fill="#f59e0b" fill-opacity="0.9"/>
+  <text x="600" y="128" text-anchor="middle" fill="#fafafa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5">Navneet Nanda</text>
+</svg>
+'''
+
+
+def footer() -> str:
+    w, h = 1200, 90
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
+  <rect width="{w}" height="{h}" fill="#0b0b10"/>
+  <path d="M0 40 C 200 10, 400 70, 640 36 C 880 2, 1040 60, 1200 28 L 1200 0 L 0 0 Z" fill="#f59e0b"/>
+</svg>
+'''
 
 
 def main() -> None:
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#16161a"/>
-      <stop offset="1" stop-color="#0b0b0d"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="82%" cy="20%" r="55%">
-      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="{W}" height="{H}" rx="20" fill="url(#bg)"/>
-  <rect width="{W}" height="{H}" rx="20" fill="url(#glow)"/>
-  <circle cx="1040" cy="46" r="90" fill="none" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1"/>
-  <circle cx="1040" cy="46" r="58" fill="none" stroke="#f4f4f5" stroke-opacity="0.12" stroke-width="1"/>
-  <circle cx="1040" cy="46" r="8" fill="#f59e0b"/>
-  <text x="56" y="158" fill="#fafafa" font-size="68" font-weight="700" letter-spacing="-2.2">Navneet Nanda</text>
-  <rect x="58" y="186" width="96" height="3" fill="#f59e0b"/>
-</svg>
-'''
-    with open(OUT, "w", encoding="utf-8") as f:
-        f.write(svg)
-    print("wrote", OUT)
+    for name, body in (("banner.svg", header()), ("footer.svg", footer())):
+        path = os.path.join(ROOT, name)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(body)
+        print("wrote", path)
 
 
 if __name__ == "__main__":

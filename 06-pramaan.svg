@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="210" viewBox="0 0 560 210" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
-  <rect width="560" height="210" rx="18" fill="#101014"/>
-  <rect x="0.5" y="0.5" width="559" height="209" rx="18" fill="none" stroke="#2a2a30"/>
-  <rect x="0" y="0" width="560" height="6" rx="3" fill="#f4f4f5"/>
-  <rect x="28" y="36" width="28" height="4" fill="#f4f4f5"/>
-  <text x="532" y="46" fill="#a1a1aa" font-size="13" text-anchor="end">Private</text>
-  <text x="28" y="108" fill="#fafafa" font-size="36" font-weight="700">Pramaan</text>
-  <text x="28" y="152" fill="#a1a1aa" font-size="16">DVR and NVR analysis across vendors.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="168" viewBox="0 0 540 168" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="540" height="168" rx="14" fill="#0e0e12"/>
+  <rect x="0.6" y="0.6" width="538.8" height="166.8" rx="14" fill="none" stroke="#27272a"/>
+  <rect width="7" height="168" fill="#e7e5e4"/>
+  <circle cx="36" cy="42" r="7" fill="#e7e5e4"/>
+  <text x="518" y="44" fill="#a1a1aa" font-size="12" text-anchor="end">Private</text>
+  <text x="54" y="48" fill="#fafafa" font-size="26" font-weight="700">Pramaan</text>
+  <text x="22" y="108" fill="#d4d4d8" font-size="15">DVR and NVR analysis across vendors.</text>
 </svg>

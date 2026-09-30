@@ -3,24 +3,34 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,react,nextjs,nodejs,fastapi,postgres,docker,linux&perline=9" alt="Python, TypeScript, React, Next.js, Node, FastAPI, Postgres, Docker, Linux"/>
+  <img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,nodejs,fastapi,postgres,docker,linux,git&perline=11" alt="Tools"/>
 </p>
+
+<br/>
 
 <table>
   <tr>
     <td width="50%">
-      <a href="https://github.com/roshansrikanth21/jarv1s"><img src="./01-jarv1s.svg" width="100%" alt="jarv1s"/></a>
+      <a href="https://github.com/roshansrikanth21/jarv1s">
+        <img src="./01-jarv1s.svg" width="100%" alt="jarv1s"/>
+      </a>
     </td>
     <td width="50%">
-      <a href="https://github.com/navneetxdd/fuseline"><img src="./02-fuseline.svg" width="100%" alt="fuseline"/></a>
+      <a href="https://github.com/navneetxdd/fuseline">
+        <img src="./02-fuseline.svg" width="100%" alt="fuseline"/>
+      </a>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <a href="https://github.com/navneetxdd/c0mr4d35"><img src="./03-datum.svg" width="100%" alt="Datum"/></a>
+      <a href="https://github.com/navneetxdd/c0mr4d35">
+        <img src="./03-datum.svg" width="100%" alt="Datum"/>
+      </a>
     </td>
     <td width="50%">
-      <a href="https://github.com/navneetxdd/Sentinel-DDoS-Mitigation-System"><img src="./04-sentinel.svg" width="100%" alt="Sentinel"/></a>
+      <a href="https://github.com/navneetxdd/Sentinel-DDoS-Mitigation-System">
+        <img src="./04-sentinel.svg" width="100%" alt="Sentinel"/>
+      </a>
     </td>
   </tr>
   <tr>
@@ -32,3 +42,7 @@
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <img src="./footer.svg" width="100%" alt=""/>
+</p>
