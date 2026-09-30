@@ -23,17 +23,14 @@ def row(y: float, key: str, val: str, delay: float) -> str:
 
 def main() -> None:
     rows = [
-        (78, "Now", "Building timelines that hold up under scrutiny"),
-        (100, "Also", "CTF curious · packet nerd · ships when it works"),
-        (122, "Edu", "B.Tech CSE (Cybersecurity)"),
-        (144, "Loc", "Between Wireshark and the debugger"),
-        (176, "— Lab", ""),
-        (198, "Forensics", "Plaso · ADB · SQLite · timeline correlation"),
-        (220, "Defense", "Network monitoring · DDoS mitigation ideas"),
-        (242, "Build", "Python · FastAPI · React · TypeScript"),
-        (264, "Ops", "Linux · Docker · Git · PowerShell"),
-        (296, "Ship", "fuseline · Sentinel · CyberShield · c0mr4d35"),
-        (328, "Mood", "caffeine optional · evidence mandatory"),
+        (78, "Now", "Mobile forensic timelines"),
+        (104, "Focus", "Forensics, networks, systems"),
+        (130, "Edu", "B.Tech CSE, Cybersecurity"),
+        (168, "— Lab", ""),
+        (194, "Tools", "Plaso, SQLite, Wireshark"),
+        (220, "Build", "Python, TypeScript, FastAPI"),
+        (246, "Run", "Linux, Docker"),
+        (284, "Ship", "fuseline"),
     ]
 
     parts = []
@@ -53,8 +50,8 @@ def main() -> None:
 
     # blinking cursor
     parts.append(
-        f'''<text x="22" y="358" fill="{MUTED}" font-size="12">navneet@lab:~$</text>
-<rect x="128" y="346" width="8" height="14" fill="{AMBER}">
+        f'''<text x="22" y="332" fill="{MUTED}" font-size="12">navneet@lab:~$</text>
+<rect x="128" y="320" width="8" height="14" fill="{AMBER}">
   <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
 </rect>'''
     )

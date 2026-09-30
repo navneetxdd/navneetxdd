@@ -87,17 +87,16 @@ def main() -> None:
   <line x1="{cx - r0}" y1="{cy}" x2="{cx + r0}" y2="{cy}" stroke="{LINE}" stroke-opacity="0.5"/>
   <line x1="{cx}" y1="{cy - r0}" x2="{cx}" y2="{cy + r0}" stroke="{LINE}" stroke-opacity="0.5"/>
   {blip_svg}
-  <text x="{cx}" y="{cy + r0 + 18}" fill="{MUTED}" font-size="10" text-anchor="middle">signal sweep · live artifacts</text>
+  <text x="{cx}" y="{cy + r0 + 18}" fill="{MUTED}" font-size="10" text-anchor="middle">artifact sweep</text>
 
   <text x="20" y="232" fill="{AMBER}" font-size="11" font-weight="700">FUSELINE STRIP</text>
   <line x1="20" y1="248" x2="360" y2="248" stroke="{LINE}" stroke-width="2"/>
   {"".join(ticks)}
 
   <text x="20" y="318" fill="{MUTED}" font-size="10">STATUS</text>
-  <text x="78" y="318" fill="{AMBER2}" font-size="10">shipping · learning · breaking things on purpose</text>
+  <text x="78" y="318" fill="{AMBER2}" font-size="10">fuseline in progress</text>
   <text x="20" y="340" fill="{MUTED}" font-size="10">FOCUS</text>
-  <text x="78" y="340" fill="{TEXT}" font-size="10">forensics · networks · systems security</text>
-  <text x="20" y="362" fill="{DIM}" font-size="9">not a dashboard. a desk.</text>
+  <text x="78" y="340" fill="{TEXT}" font-size="10">forensics · networks · systems</text>
 </svg>
 '''
     with open(OUT, "w", encoding="utf-8") as f:
