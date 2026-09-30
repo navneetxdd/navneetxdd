@@ -23,14 +23,15 @@ def row(y: float, key: str, val: str, delay: float) -> str:
 
 def main() -> None:
     rows = [
-        (78, "Now", "Mobile forensic timelines"),
-        (104, "Focus", "Forensics, networks, systems"),
-        (130, "Edu", "B.Tech CSE, Cybersecurity"),
-        (168, "— Lab", ""),
-        (194, "Tools", "Plaso, SQLite, Wireshark"),
-        (220, "Build", "Python, TypeScript, FastAPI"),
-        (246, "Run", "Linux, Docker"),
-        (284, "Ship", "fuseline"),
+        (78, "Now", "Timelines, and a voice agent"),
+        (104, "With", "A team. The repos are not all mine."),
+        (146, "— Open", ""),
+        (172, "jarv1s", "Voice on the machine. Shared."),
+        (198, "fuseline", "Phone artifacts, one clock."),
+        (236, "— Closed", ""),
+        (262, "Pramaan", "DVR evidence. Door is shut."),
+        (288, "m1rage", "CTF locker. No public link."),
+        (314, "Amazon", "Entity resolution. Also shut."),
     ]
 
     parts = []
@@ -50,8 +51,8 @@ def main() -> None:
 
     # blinking cursor
     parts.append(
-        f'''<text x="22" y="332" fill="{MUTED}" font-size="12">navneet@lab:~$</text>
-<rect x="128" y="320" width="8" height="14" fill="{AMBER}">
+        f'''<text x="22" y="352" fill="{MUTED}" font-size="12">navneet@lab:~$</text>
+<rect x="128" y="340" width="8" height="14" fill="{AMBER}">
   <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
 </rect>'''
     )

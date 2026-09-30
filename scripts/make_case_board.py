@@ -79,8 +79,8 @@ def main() -> None:
   <text x="{W/2}" y="19.5" fill="{MUTED}" font-size="11.5" text-anchor="middle">navneet@lab · CASE BOARD</text>
 
   <text x="20" y="54" fill="{AMBER}" font-size="11" font-weight="700">ACTIVE CASE</text>
-  <text x="20" y="72" fill="{TEXT}" font-size="13" font-weight="700">mobile timeline correlation</text>
-  <text x="20" y="90" fill="{DIM}" font-size="11">fuse GPS · browsing · app usage into one clock</text>
+  <text x="20" y="72" fill="{TEXT}" font-size="13" font-weight="700">fuseline</text>
+  <text x="20" y="90" fill="{DIM}" font-size="11">GPS, browsing, and app use. One clock.</text>
 
   {"".join(rings)}
   {sweep}
@@ -93,10 +93,10 @@ def main() -> None:
   <line x1="20" y1="248" x2="360" y2="248" stroke="{LINE}" stroke-width="2"/>
   {"".join(ticks)}
 
-  <text x="20" y="318" fill="{MUTED}" font-size="10">STATUS</text>
-  <text x="78" y="318" fill="{AMBER2}" font-size="10">fuseline in progress</text>
-  <text x="20" y="340" fill="{MUTED}" font-size="10">FOCUS</text>
-  <text x="78" y="340" fill="{TEXT}" font-size="10">forensics · networks · systems</text>
+  <text x="20" y="318" fill="{MUTED}" font-size="10">ALSO</text>
+  <text x="78" y="318" fill="{AMBER2}" font-size="10">jarv1s, with the team</text>
+  <text x="20" y="340" fill="{MUTED}" font-size="10">CLOSED</text>
+  <text x="78" y="340" fill="{TEXT}" font-size="10">Pramaan · m1rage · Amazon ML</text>
 </svg>
 '''
     with open(OUT, "w", encoding="utf-8") as f:

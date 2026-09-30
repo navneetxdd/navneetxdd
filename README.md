@@ -1,14 +1,6 @@
-<div align="center">
-
-# Navneet Nanda
-
-B.Tech CSE, Cybersecurity
-
-Phone artifacts. One timeline.
-
-</div>
-
-<br/>
+<p align="center">
+  <img src="./banner.svg" width="100%" alt="Navneet Nanda"/>
+</p>
 
 <table>
   <tr>
@@ -16,7 +8,7 @@ Phone artifacts. One timeline.
       <img src="./case-board.svg" width="100%" alt="Case board"/>
     </td>
     <td width="58%" valign="top">
-      <img src="./dossier.svg" width="100%" alt="Lab file"/>
+      <img src="./dossier.svg" width="100%" alt="File"/>
     </td>
   </tr>
 </table>
@@ -25,22 +17,30 @@ Phone artifacts. One timeline.
   <img src="./signal-map.svg" alt="Contribution map"/>
 </p>
 
----
+## Open
 
-## Work
+These have a door.
 
 | | |
 | :--- | :--- |
+| **[jarv1s](https://github.com/roshansrikanth21/jarv1s)** | Voice assistant that runs on the machine. Built with the team. Roshan owns the repo. |
 | **[fuseline](https://github.com/navneetxdd/fuseline)** | Location, browsing, and app use, on one clock. |
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,ts,fastapi,sqlite,linux,docker,bash&theme=dark" alt="Python, TypeScript, FastAPI, SQLite, Linux, Docker"/>
-</p>
+## Shut
+
+The work is real. The links are not, because the rooms are private.
+
+| | |
+| :--- | :--- |
+| **Pramaan** | DVR and NVR evidence: pull it, recover it, read it. Visitors are not on the list. |
+| **m1rage** | CTF with the group. Flags do not live on a public README. |
+| **Amazon ML** | 2026 entity-resolution challenge. Locked until it is allowed out. |
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Wireshark-1c1917?style=flat-square&logo=wireshark&logoColor=f59e0b&labelColor=0c0a09" alt="Wireshark"/>
-  <img src="https://img.shields.io/badge/Burp-1c1917?style=flat-square&logoColor=f59e0b&labelColor=0c0a09" alt="Burp"/>
-  <img src="https://img.shields.io/badge/Ghidra-1c1917?style=flat-square&logoColor=f59e0b&labelColor=0c0a09" alt="Ghidra"/>
-  <img src="https://img.shields.io/badge/Nmap-1c1917?style=flat-square&logo=nmap&logoColor=f59e0b&labelColor=0c0a09" alt="Nmap"/>
-  <img src="https://img.shields.io/badge/Plaso-1c1917?style=flat-square&logo=python&logoColor=f59e0b&labelColor=0c0a09" alt="Plaso"/>
+  <img src="https://img.shields.io/badge/Python-0c0a09?style=flat-square&logo=python&logoColor=f59e0b&labelColor=1c1917" alt="Python"/>
+  <img src="https://img.shields.io/badge/TypeScript-0c0a09?style=flat-square&logo=typescript&logoColor=f59e0b&labelColor=1c1917" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/FastAPI-0c0a09?style=flat-square&logo=fastapi&logoColor=f59e0b&labelColor=1c1917" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/SQLite-0c0a09?style=flat-square&logo=sqlite&logoColor=f59e0b&labelColor=1c1917" alt="SQLite"/>
+  <img src="https://img.shields.io/badge/Wireshark-0c0a09?style=flat-square&logo=wireshark&logoColor=f59e0b&labelColor=1c1917" alt="Wireshark"/>
+  <img src="https://img.shields.io/badge/Plaso-0c0a09?style=flat-square&logoColor=f59e0b&labelColor=1c1917" alt="Plaso"/>
 </p>
