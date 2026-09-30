@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Project cards in the pin-card shape used on designed profiles."""
+"""Wide project rows. The sentence sits on the same line as the name."""
 from __future__ import annotations
 
 import os
@@ -7,50 +7,38 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..")
 
-W, H = 540, 188
+W, H = 1100, 84
 
-CARDS = [
-    ("01-jarv1s.svg", "#f59e0b", "jarv1s", ["Listens, runs tools, and answers on the machine."], ""),
-    ("02-fuseline.svg", "#2dd4bf", "fuseline", ["One timeline from location, browsing, and app use."], ""),
-    ("03-datum.svg", "#c084fc", "Datum", ["Baselines a site, then flags defacement and exposure."], ""),
-    ("04-sentinel.svg", "#fb7185", "Sentinel", ["Finds a DDoS flood and runs the mitigation."], ""),
-    (
-        "05-m1rage.svg",
-        "#60a5fa",
-        "m1rage",
-        ["CTF platform by Team NullBorn", "for Amrita Cybernation 2026."],
-        "Private",
-    ),
-    ("06-pramaan.svg", "#e7e5e4", "Pramaan", ["Pulls and reads evidence from DVR and NVR systems."], "Private"),
+ROWS = [
+    ("01-jarv1s.svg", "#f59e0b", "jarv1s", "Desktop voice assistant. Speech in, tools, spoken answer.", ""),
+    ("02-fuseline.svg", "#2dd4bf", "fuseline", "Location, browser history, and app use on one clock.", ""),
+    ("03-datum.svg", "#c084fc", "Datum", "Compares a site to its baseline. Flags defacement and exposure.", ""),
+    ("04-sentinel.svg", "#fb7185", "Sentinel", "Detects DDoS traffic and applies the mitigation.", ""),
+    ("05-m1rage.svg", "#60a5fa", "m1rage", "CTF platform by Team NullBorn. Amrita Cybernation 2026.", "Private"),
+    ("06-pramaan.svg", "#e7e5e4", "Pramaan", "Collects and reads evidence from DVR and NVR recorders.", "Private"),
 ]
 
 
-def card(accent: str, title: str, lines: list[str], mark: str) -> str:
-    text = ""
-    y = 108
-    for line in lines:
-        text += f'<text x="22" y="{y}" fill="#d4d4d8" font-size="15">{line}</text>'
-        y += 22
-    badge = ""
+def row(accent: str, title: str, line: str, mark: str) -> str:
+    end = ""
     if mark:
-        badge = f'<text x="{W - 22}" y="44" fill="#a1a1aa" font-size="12" text-anchor="end">{mark}</text>'
+        end = f'<text x="{W - 28}" y="48" fill="#71717a" font-size="13" text-anchor="end">{mark}</text>'
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="Segoe UI, Helvetica, Arial, sans-serif">
-  <rect width="{W}" height="{H}" rx="14" fill="#0e0e12"/>
-  <rect x="0.6" y="0.6" width="{W - 1.2}" height="{H - 1.2}" rx="14" fill="none" stroke="#27272a"/>
-  <rect width="7" height="{H}" fill="{accent}"/>
-  <circle cx="36" cy="42" r="7" fill="{accent}"/>
-  {badge}
-  <text x="54" y="48" fill="#fafafa" font-size="26" font-weight="700">{title}</text>
-  {text}
+  <rect width="{W}" height="{H}" fill="#09090b"/>
+  <line x1="0" y1="{H - 1}" x2="{W}" y2="{H - 1}" stroke="#27272a"/>
+  <rect x="0" y="22" width="3" height="40" fill="{accent}"/>
+  <text x="24" y="50" fill="#fafafa" font-size="20" font-weight="650">{title}</text>
+  <text x="250" y="50" fill="#a1a1aa" font-size="16">{line}</text>
+  {end}
 </svg>
 '''
 
 
 def main() -> None:
-    for name, accent, title, lines, mark in CARDS:
+    for name, accent, title, line, mark in ROWS:
         path = os.path.join(OUT, name)
         with open(path, "w", encoding="utf-8") as f:
-            f.write(card(accent, title, lines, mark))
+            f.write(row(accent, title, line, mark))
         print("wrote", path)
 
 
