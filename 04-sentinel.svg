@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="84" viewBox="0 0 1100 84" font-family="Segoe UI, Helvetica, Arial, sans-serif">
-  <rect width="1100" height="84" fill="#09090b"/>
-  <line x1="0" y1="83" x2="1100" y2="83" stroke="#27272a"/>
-  <rect x="0" y="22" width="3" height="40" fill="#fb7185"/>
-  <text x="24" y="50" fill="#fafafa" font-size="20" font-weight="650">Sentinel</text>
-  <text x="250" y="50" fill="#a1a1aa" font-size="16">Detects DDoS traffic and applies the mitigation.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="176" viewBox="0 0 560 176">
+  <rect width="560" height="176" rx="4" fill="#f3ead7"/>
+  <rect x="0" y="0" width="6" height="176" fill="#c4a574"/>
   
+  <text x="28" y="58" fill="#1c1612" font-family="Georgia, 'Palatino Linotype', serif" font-size="30">Sentinel</text>
+  <text x="28" y="108" fill="#6b5e52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15">Detects a DDoS flood and applies the mitigation.</text>
 </svg>
