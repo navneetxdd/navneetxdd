@@ -4,11 +4,23 @@
 
 <table>
   <tr>
-    <td width="42%" valign="top">
-      <img src="./case-board.svg" width="100%" alt="Case board"/>
+    <td width="50%">
+      <a href="https://github.com/roshansrikanth21/jarv1s">
+        <img src="./01-jarv1s.svg" width="100%" alt="jarv1s"/>
+      </a>
     </td>
-    <td width="58%" valign="top">
-      <img src="./dossier.svg" width="100%" alt="File"/>
+    <td width="50%">
+      <a href="https://github.com/navneetxdd/fuseline">
+        <img src="./02-fuseline.svg" width="100%" alt="fuseline"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./03-m1rage.svg" width="100%" alt="m1rage"/>
+    </td>
+    <td width="50%">
+      <img src="./04-pramaan.svg" width="100%" alt="Pramaan"/>
     </td>
   </tr>
 </table>
@@ -17,29 +29,9 @@
   <img src="./signal-map.svg" alt="Contribution map"/>
 </p>
 
-## Open
-
-These have a door.
-
-| | |
-| :--- | :--- |
-| **[jarv1s](https://github.com/roshansrikanth21/jarv1s)** | Voice assistant that runs on the machine. Built with the team. Roshan owns the repo. |
-| **[fuseline](https://github.com/navneetxdd/fuseline)** | Location, browsing, and app use, on one clock. |
-
-## Shut
-
-The work is real. The links are not, because the rooms are private.
-
-| | |
-| :--- | :--- |
-| **Pramaan** | DVR and NVR evidence: pull it, recover it, read it. Visitors are not on the list. |
-| **m1rage** | CTF with the group. Flags do not live on a public README. |
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-0c0a09?style=flat-square&logo=python&logoColor=f59e0b&labelColor=1c1917" alt="Python"/>
-  <img src="https://img.shields.io/badge/TypeScript-0c0a09?style=flat-square&logo=typescript&logoColor=f59e0b&labelColor=1c1917" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/FastAPI-0c0a09?style=flat-square&logo=fastapi&logoColor=f59e0b&labelColor=1c1917" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/SQLite-0c0a09?style=flat-square&logo=sqlite&logoColor=f59e0b&labelColor=1c1917" alt="SQLite"/>
-  <img src="https://img.shields.io/badge/Wireshark-0c0a09?style=flat-square&logo=wireshark&logoColor=f59e0b&labelColor=1c1917" alt="Wireshark"/>
-  <img src="https://img.shields.io/badge/Plaso-0c0a09?style=flat-square&logoColor=f59e0b&labelColor=1c1917" alt="Plaso"/>
+  <img src="https://img.shields.io/badge/Python-09090b?style=flat-square&logo=python&logoColor=f59e0b&labelColor=18181b" alt="Python"/>
+  <img src="https://img.shields.io/badge/TypeScript-09090b?style=flat-square&logo=typescript&logoColor=f59e0b&labelColor=18181b" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/FastAPI-09090b?style=flat-square&logo=fastapi&logoColor=f59e0b&labelColor=18181b" alt="FastAPI"/>
+  <img src="https://img.shields.io/badge/React-09090b?style=flat-square&logo=react&logoColor=f59e0b&labelColor=18181b" alt="React"/>
 </p>

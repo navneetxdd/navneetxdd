@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="168" viewBox="0 0 440 168" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <rect width="440" height="168" rx="14" fill="#09090b"/>
+  <rect x="0.5" y="0.5" width="439" height="167" rx="14" fill="none" stroke="#27272a"/>
+  <rect x="0" y="0" width="4" height="168" fill="#f59e0b"/>
+  <text x="28" y="40" fill="#f59e0b" font-size="12">02</text>
+  <text x="412" y="40" fill="#a1a1aa" font-size="12" text-anchor="end">with the team</text>
+  <text x="28" y="88" fill="#fafafa" font-size="28" font-weight="700">fuseline</text>
+  <text x="28" y="124" fill="#a1a1aa" font-size="14">Location, browsing, and app use on one clock.</text>
+</svg>
