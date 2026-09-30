@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Nameplate only. No slogan."""
+"""Full-width profile header. Name, not a slogan."""
 from __future__ import annotations
 
 import os
@@ -7,16 +7,28 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "banner.svg")
 
-W, H = 1040, 120
-BG, LINE = "#0b0b0c", "#2a2a2e"
-TEXT, MUTED = "#f4f4f5", "#71717a"
+W, H = 1200, 280
 
 
 def main() -> None:
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
-  <rect width="{W}" height="{H}" fill="{BG}"/>
-  <text x="4" y="62" fill="{TEXT}" font-size="44" font-weight="650" letter-spacing="-1.2">Navneet Nanda</text>
-  <line x1="4" y1="86" x2="168" y2="86" stroke="{MUTED}" stroke-width="1"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16161a"/>
+      <stop offset="1" stop-color="#0b0b0d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="82%" cy="20%" r="55%">
+      <stop offset="0" stop-color="#f59e0b" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="{W}" height="{H}" rx="20" fill="url(#bg)"/>
+  <rect width="{W}" height="{H}" rx="20" fill="url(#glow)"/>
+  <circle cx="1040" cy="46" r="90" fill="none" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1"/>
+  <circle cx="1040" cy="46" r="58" fill="none" stroke="#f4f4f5" stroke-opacity="0.12" stroke-width="1"/>
+  <circle cx="1040" cy="46" r="8" fill="#f59e0b"/>
+  <text x="56" y="158" fill="#fafafa" font-size="68" font-weight="700" letter-spacing="-2.2">Navneet Nanda</text>
+  <rect x="58" y="186" width="96" height="3" fill="#f59e0b"/>
 </svg>
 '''
     with open(OUT, "w", encoding="utf-8") as f:

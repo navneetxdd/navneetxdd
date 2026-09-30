@@ -1,6 +1,10 @@
-<img src="./banner.svg" width="100%" alt="Navneet Nanda"/>
+<p align="center">
+  <img src="./banner.svg" width="100%" alt="Navneet Nanda"/>
+</p>
 
-<br/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,ts,react,nextjs,nodejs,fastapi,postgres,docker,linux&perline=9" alt="Python, TypeScript, React, Next.js, Node, FastAPI, Postgres, Docker, Linux"/>
+</p>
 
 <table>
   <tr>
