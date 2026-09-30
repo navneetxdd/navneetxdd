@@ -1,10 +1,30 @@
-# Navneet Nanda
+<img src="./banner.svg" width="100%" alt="Navneet Nanda"/>
 
-| | |
-| :--- | :--- |
-| [**jarv1s**](https://github.com/roshansrikanth21/jarv1s) | Voice assistant that runs on the machine. |
-| [**fuseline**](https://github.com/navneetxdd/fuseline) | Location, browsing, and app use in one timeline. |
-| [**Datum**](https://github.com/navneetxdd/c0mr4d35) | Detects website defacement and checks exposure. |
-| [**Sentinel**](https://github.com/navneetxdd/Sentinel-DDoS-Mitigation-System) | Detects and mitigates DDoS traffic. |
-| **m1rage** | CTF. Private repository. |
-| **Pramaan** | DVR and NVR analysis. Private repository. |
+<br/>
+
+<table>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/roshansrikanth21/jarv1s"><img src="./01-jarv1s.svg" width="100%" alt="jarv1s"/></a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/navneetxdd/fuseline"><img src="./02-fuseline.svg" width="100%" alt="fuseline"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/navneetxdd/c0mr4d35"><img src="./03-datum.svg" width="100%" alt="Datum"/></a>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/navneetxdd/Sentinel-DDoS-Mitigation-System"><img src="./04-sentinel.svg" width="100%" alt="Sentinel"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="./05-m1rage.svg" width="100%" alt="m1rage"/>
+    </td>
+    <td width="50%">
+      <img src="./06-pramaan.svg" width="100%" alt="Pramaan"/>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="176" viewBox="0 0 500 176" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect width="500" height="176" rx="16" fill="#111113"/>
+  <rect x="0.5" y="0.5" width="499" height="175" rx="16" fill="none" stroke="#2a2a2e"/>
+  <text x="484" y="148" fill="#1c1c20" font-size="84" font-weight="700" text-anchor="end">04</text>
+  <text x="28" y="42" fill="#a1a1aa" font-size="12" letter-spacing="1.6">04</text>
+  <text x="28" y="78" fill="#f4f4f5" font-size="28" font-weight="650">Sentinel</text>
+  <text x="28" y="108" fill="#a1a1aa" font-size="15">Detects and mitigates DDoS traffic.</text>
+</svg>
