@@ -31,7 +31,6 @@ def main() -> None:
         (236, "— Closed", ""),
         (262, "Pramaan", "DVR evidence. Door is shut."),
         (288, "m1rage", "CTF locker. No public link."),
-        (314, "Amazon", "Entity resolution. Also shut."),
     ]
 
     parts = []

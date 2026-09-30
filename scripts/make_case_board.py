@@ -96,7 +96,7 @@ def main() -> None:
   <text x="20" y="318" fill="{MUTED}" font-size="10">ALSO</text>
   <text x="78" y="318" fill="{AMBER2}" font-size="10">jarv1s, with the team</text>
   <text x="20" y="340" fill="{MUTED}" font-size="10">CLOSED</text>
-  <text x="78" y="340" fill="{TEXT}" font-size="10">Pramaan · m1rage · Amazon ML</text>
+  <text x="78" y="340" fill="{TEXT}" font-size="10">Pramaan · m1rage</text>
 </svg>
 '''
     with open(OUT, "w", encoding="utf-8") as f:

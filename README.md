@@ -34,7 +34,6 @@ The work is real. The links are not, because the rooms are private.
 | :--- | :--- |
 | **Pramaan** | DVR and NVR evidence: pull it, recover it, read it. Visitors are not on the list. |
 | **m1rage** | CTF with the group. Flags do not live on a public README. |
-| **Amazon ML** | 2026 entity-resolution challenge. Locked until it is allowed out. |
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-0c0a09?style=flat-square&logo=python&logoColor=f59e0b&labelColor=1c1917" alt="Python"/>
