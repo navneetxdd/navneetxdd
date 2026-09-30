@@ -23,7 +23,9 @@ def header() -> str:
   <circle cx="980" cy="40" r="140" fill="#60a5fa" fill-opacity="0.10"/>
   <path d="M0 210 C 180 160, 320 250, 520 210 C 740 164, 900 250, 1200 190 L 1200 300 L 0 300 Z" fill="#0b0b10"/>
   <path d="M0 236 C 220 190, 400 270, 640 228 C 860 190, 1000 250, 1200 214 L 1200 300 L 0 300 Z" fill="#f59e0b" fill-opacity="0.9"/>
-  <text x="600" y="128" text-anchor="middle" fill="#fafafa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-1.5">Navneet Nanda</text>
+  <text x="64" y="108" fill="#fafafa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="68" font-weight="700" letter-spacing="-1.8">Navneet</text>
+  <text x="66" y="150" fill="#e4e4e7" font-family="Georgia, Times New Roman, serif" font-size="18">“The function of good software is to make the complex appear to be simple.”</text>
+  <text x="66" y="176" fill="#a1a1aa" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Grady Booch</text>
 </svg>
 '''
 

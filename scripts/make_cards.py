@@ -7,13 +7,13 @@ import os
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..")
 
-W, H = 540, 168
+W, H = 540, 188
 
 CARDS = [
-    ("01-jarv1s.svg", "#f59e0b", "jarv1s", ["Voice assistant that runs on the machine."], ""),
-    ("02-fuseline.svg", "#2dd4bf", "fuseline", ["Location, browsing, and app use in one timeline."], ""),
-    ("03-datum.svg", "#c084fc", "Datum", ["Detects website defacement and checks exposure."], ""),
-    ("04-sentinel.svg", "#fb7185", "Sentinel", ["Detects and mitigates DDoS traffic."], ""),
+    ("01-jarv1s.svg", "#f59e0b", "jarv1s", ["Listens, runs tools, and answers on the machine."], ""),
+    ("02-fuseline.svg", "#2dd4bf", "fuseline", ["One timeline from location, browsing, and app use."], ""),
+    ("03-datum.svg", "#c084fc", "Datum", ["Baselines a site, then flags defacement and exposure."], ""),
+    ("04-sentinel.svg", "#fb7185", "Sentinel", ["Finds a DDoS flood and runs the mitigation."], ""),
     (
         "05-m1rage.svg",
         "#60a5fa",
@@ -21,7 +21,7 @@ CARDS = [
         ["CTF platform by Team NullBorn", "for Amrita Cybernation 2026."],
         "Private",
     ),
-    ("06-pramaan.svg", "#e7e5e4", "Pramaan", ["DVR and NVR analysis across vendors."], "Private"),
+    ("06-pramaan.svg", "#e7e5e4", "Pramaan", ["Pulls and reads evidence from DVR and NVR systems."], "Private"),
 ]
 
 

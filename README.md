@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" width="100%" alt="Navneet Nanda"/>
+  <img src="./banner.svg" width="100%" alt="Navneet"/>
 </p>
 
 <p align="center">
