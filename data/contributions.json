@@ -1,14 +1,9 @@
 {
   "user": "navneetxdd",
-  "generated": "2026-10-01",
-  "total": 375,
-  "active_days": 69,
+  "generated": "2026-10-02",
+  "total": 373,
+  "active_days": 68,
   "days": [
-    {
-      "date": "2025-10-02",
-      "count": 2,
-      "level": 1
-    },
     {
       "date": "2025-10-03",
       "count": 0,
@@ -1826,6 +1821,11 @@
     },
     {
       "date": "2026-10-01",
+      "count": 0,
+      "level": 0
+    },
+    {
+      "date": "2026-10-02",
       "count": 0,
       "level": 0
     }
